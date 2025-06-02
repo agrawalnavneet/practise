@@ -15,7 +15,8 @@ class Main{
                 }
 
             }
-
+Time complexity O(N^2)
+space Complexity O(1)
 
 
 More Optimal Solution
@@ -40,3 +41,5 @@ class Solution {
         return maxSum;
     }
 }
+
+Time complexity O(N)
