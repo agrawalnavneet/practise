@@ -1,4 +1,18 @@
 
+nums = [2, 7, 11, 15], target = 9
+
+Step 1: i=0 → 2 → 9-2=7 → map doesn't have 7 → put (2,0)
+Step 2: i=1 → 7 → 9-7=2 → map has 2 → return [0,1]
+
+or 
+Suppose nums = [1, 3, 6, 2] and target = 8.
+We look for two numbers that add up to 8:
+
+6 + 2 = 8 (indices 2 and 3)
+So, answer: [2, 3]
+
+
+
 // better sol 
 
 class Solution {
