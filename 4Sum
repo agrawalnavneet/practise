@@ -1,0 +1,5 @@
+ Suppose nums = [1, 0, -1, 0, -2, 2], and target = 0.
+We want four numbers whose sum is 0.
+Example:
+-1 + 0 + 0 + 1 = 0
+So, one quadruplet is [-1, 0, 0, 1].
