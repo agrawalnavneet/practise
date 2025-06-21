@@ -1,0 +1,25 @@
+
+Input: arr[] = [12, 35, 1, 10, 34, 1]
+Output: 34
+Explanation: The largest element of the array is 35 and the second largest element is 34.
+
+
+class Solution {
+    public int getSecondLargest(int[] arr) {
+        
+        int l=-1;
+        int sec=-1;
+        for(int i=0;i<arr.length;i++){
+            if (arr[i]>l){
+            sec=l;
+            l=arr[i];}
+        
+        else if(arr[i]<l && arr[i]>sec){
+                sec=arr[i];
+            
+        }
+        }
+        return sec;
+        
+    }
+}
